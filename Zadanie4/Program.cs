@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Zadanie4
 {
     internal class Program
+
     {
         static void Main(string[] args)
         {
@@ -19,6 +20,7 @@ namespace Zadanie4
             b = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Obwód wynosi {0}", 2*a+2*b);
             Console.WriteLine("Pole prostokata {0}", a * b);
+            Console.ReadKey(true);//pauza
 
 
 
